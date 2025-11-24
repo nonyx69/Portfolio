@@ -1,0 +1,131 @@
+/* Mise en forme générale */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background: black;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+/* Menu déroulant de langue */
+.language-switch {
+    margin-left: 20px;
+}
+
+#languageSelect {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+#languageSelect:hover {
+    background-color: #f39c12;
+}
+
+/* Portfolio */
+.portfolio {
+    padding: 50px;
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Image zoom */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project:hover .image-container img {
+    transform: scale(1.1);
+}
+
+/* Texte du projet */
+.project-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.project-details {
+    max-height: 0;
+    /* texte caché par défaut*/
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+/* Affichage du détail au survol */
+.project:hover .project-details {
+    max-height: 100px;
+    /* ajuster selon la taille du texte */
+    opacity: 1;
+}
