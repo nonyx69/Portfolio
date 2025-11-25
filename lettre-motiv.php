@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p>
                 Permettez-moi de vous faire part de ma candidature pour un poste de <?= strtolower($poste) ?> au sein de <?= $entreprise ?>.
                 Actuellement étudiant en deuxième année de Bachelor Informatique à l’école IPSSI, je souhaite intégrer dès la rentrée
-                prochaine un cursus orienté vers le développement web, de jeux vidéo.
+                prochaine un cursus orienté vers le développement web, application ou même jeux vidéo.
             </p>
 
             <p>

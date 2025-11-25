@@ -1,10 +1,18 @@
 </body>
+
+ 
+
 <footer>
      <link rel="stylesheet" href="footer.css">
-     
+     <div>
+        <p>
+            <b>Téléphone :</b> <br> 06 29 80 91 57 <br><br>
+            <b>Email :</b> <br> noa.guilhot.pro@gmail.com
+        </p>
+    </div>
     <div>
         <p>
-            Social : <br><br>
+            <b>Social : </b><br><br>
             <a href="https://github.com/nonyx69">
                 <img src="https://www.drupal.org/files/project-images/GitHub-Mark.png">
             </a>
@@ -18,32 +26,31 @@
     </div>
     <div>
         <p>
-            Compétences : <br><br>
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small/html5-emblem-orange-shield-and-white-text-vector.jpg">
-                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"> 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
-                <img src=" https://cdn-icons-png.flaticon.com/512/5968/5968332.png">
-                <img src="https://e7.pngegg.com/pngimages/824/143/png-clipart-python-programming-language-computer-programming-others-miscellaneous-text-thumbnail.png">
-                <img src="https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63065002cd563e1cd1cead28_eaadfe64.png">
+            <b>Compétences : </b><br><br>
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small/html5-emblem-orange-shield-and-white-text-vector.jpg"> 
+                <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png">  
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"> 
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png"> 
                 <img src="https://us.123rf.com/450wm/asnia/asnia1707/asnia170700318/83206225-ic%C3%B4ne-de-base-de-donn%C3%A9es-sql-conception-de-logo-application-ui-ou-ux-inscription-orange-avec.jpg">
-                <img src="https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png">
-                <img src="https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue.png">
-
-                
-       
-      
-       
-       
-       
+                <img src="https://e7.pngegg.com/pngimages/824/143/png-clipart-python-programming-language-computer-programming-others-miscellaneous-text-thumbnail.png"> 
+                <img src="https://cdn.prod.website-files.com/6047a9e35e5dc54ac86ddd90/63065002cd563e1cd1cead28_eaadfe64.png"> 
+                <img src="https://e7.pngegg.com/pngimages/724/306/png-clipart-c-logo-c-programming-language-icon-letter-c-blue-logo.png"> 
+                <img src="https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue.png">    
             </p>
+            
     </div>
     <div>
         <p>
-            Projets : <br><br> Booki Carré As Jeu vidéo Snake Survie TPT
-        </p>
+            <b>Certifications : </b><br><br>
+                <img src="https://upload.wikimedia.org/wikipedia/fr/3/31/Anssi.png"> 
+                <img src="https://as1.ftcdn.net/v2/jpg/05/98/01/30/1000_F_598013076_2nrryB60OHZnpAnlT2u5iwsjYHCAiT9c.jpg">  
+                <img src="https://cdn-icons-png.flaticon.com/256/518/518713.png"> 
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"> 
+                <img src="https://e7.pngegg.com/pngimages/824/143/png-clipart-python-programming-language-computer-programming-others-miscellaneous-text-thumbnail.png">  
+            </p>
+            
     </div>
     
 </footer>
-<div class="footer"> <p>© 2025 - Mon Portfolio</p> </div>
 
 </html>

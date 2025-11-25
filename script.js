@@ -38,4 +38,5 @@ function changeLanguage() {
         document.querySelectorAll('.project-text')[1].textContent = 'Ace Square project';
         document.querySelectorAll('.project-text')[2].textContent = 'Video game project';
     }
+    
 }

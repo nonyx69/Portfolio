@@ -29,58 +29,34 @@ include 'includes/header.php';
             </p>
         </div>
     </section>
-
- 
-
-
-    <!-- PORTFOLIO - CERTIFICATIONS -->
-    <section class="portfolio">
-        <h2>Some of my latest certifications</h2>
-        <div class="projects">
-
-            <div class="project">
-                <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 1"></a>
-                </div>
-                <p class="project-text">ANSSI</p>
-            </div>
-
-            <div class="project">
-                <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 2"></a>
-                </div>
-                <p class="project-text">CNIL</p>
-            </div>
-
-            <div class="project">
-                <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 3"></a>
-                </div>
-                <p class="project-text">LINUX</p>
-            </div>
-
-            <div class="project">
-                <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 4"></a>
-                </div>
-                <p class="project-text">PYTHON</p>
-            </div>
-
-            <div class="project">
-                <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 5"></a>
-                </div>
-                <p class="project-text">JAVASCRIPT</p>
-            </div>
-
-        </div>
     </section>
 
+<section class="hero2">
+
+    <div class="text designer">
+        <h1>Welcome to my Portfolio 👋</h1>
+        <p>
+            My name is <span class="name">Guilhot Noa</span>, I’m a young developer skilled in<br>
+            <span class="react">HTML, CSS, Python, C, C#, C++, JavaScript and more 🔥</span>.
+            <br><br>
+            <span class="sub-text">I’m currently learning <b>React, APIs,</b> and other technologies.</span>
+        </p>
+
+        <div class="socials">
+            <a href="https://github.com/nonyx69"><img src="https://www.drupal.org/files/project-images/GitHub-Mark.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/noa-guilhot-085b76339/"><img src="https://img.freepik.com/vecteurs-premium/logo-rond-linkedin-isole-fond-blanc_469489-985.jpg?semt=ais_hybrid&w=740&q=80" alt="LinkedIn"></a>
+            <a href="mailto:noa.guilhot.pro@gmail.com"><img src="https://img.freepik.com/vecteurs-premium/icone-application-gmail_1273375-1249.jpg?semt=ais_hybrid&w=740&q=80" alt="Google"></a>
+        </div>
+
+        <a href="contact.php"><button class="btn">Contactez Moi</button></a>
+    </div>
+
+    <div class="bitmoji">
+        <img src="bitmoji.png" alt="bitmoji">
+    </div>
+
 </section>
+
+
 
 <?php include "includes/footer.php"; ?>

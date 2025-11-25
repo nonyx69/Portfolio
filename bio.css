@@ -6,53 +6,6 @@ body {
     text-align: center;
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px;
-    background: black;
-    color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-nav {
-    display: flex;
-    align-items: center;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 16px;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #f39c12;
-}
-
-/* Menu déroulant de langue */
-.language-switch {
-    margin-left: 20px;
-}
-
-#languageSelect {
-    padding: 5px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    background: white;
-    color: black;
-    transition: background-color 0.3s ease;
-}
-
-#languageSelect:hover {
-    background-color: #f39c12;
-}
-
 /* Portfolio */
 .portfolio {
     padding: 50px;

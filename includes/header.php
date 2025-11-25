@@ -20,9 +20,11 @@
 <header>
     <nav>
         <a href="index.php">Home</a>
+        <a href="moi.php">Bio</a>
+        <a href="bio.php">Projects</a>
         <a href="cv.html">CV</a>
-        <a href="bio.php">Bio</a>
         <a href="contact.php">Contact</a>
+        
 
         <div class="language-switch">
             <select id="languageSelect" onchange="changeLanguage()">

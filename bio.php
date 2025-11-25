@@ -3,9 +3,7 @@ $title = "À propos de moi";
 $page_css = "bio.css";
 include 'includes/header.php';
 ?>
-
-<h1>A propos de Moi</h1>
-<p>Je m'appelle Noa, j'ai 19 ans et je suis actuellement en 2ème année de Bachelor informatique orienté dev à l'école IPSSI. Je vise un MASTER DevOps.</p>
+<main></main>
 
 <section class="portfolio">
     <h2>Some of my latest academic work</h2>
@@ -53,5 +51,53 @@ include 'includes/header.php';
         </div>
     </div>
 </section>
+
+<!-- PORTFOLIO - CERTIFICATIONS -->
+    <section class="portfolio">
+        <h2>Some of my latest certifications</h2>
+        <div class="projects">
+
+            <div class="project">
+                <div class="image-container">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
+                                     alt="Project Image 1"></a>
+                </div>
+                <p class="project-text">ANSSI</p>
+            </div>
+
+            <div class="project">
+                <div class="image-container">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
+                                     alt="Project Image 2"></a>
+                </div>
+                <p class="project-text">CNIL</p>
+            </div>
+
+            <div class="project">
+                <div class="image-container">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
+                                     alt="Project Image 3"></a>
+                </div>
+                <p class="project-text">LINUX</p>
+            </div>
+
+            <div class="project">
+                <div class="image-container">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
+                                     alt="Project Image 4"></a>
+                </div>
+                <p class="project-text">PYTHON</p>
+            </div>
+
+            <div class="project">
+                <div class="image-container">
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
+                                     alt="Project Image 5"></a>
+                </div>
+                <p class="project-text">JAVASCRIPT</p>
+            </div>
+
+        </div>
+    </section>
 
 <?php include 'includes/footer.php'; ?>
