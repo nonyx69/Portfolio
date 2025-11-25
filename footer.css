@@ -1,0 +1,23 @@
+footer {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+footer div p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}

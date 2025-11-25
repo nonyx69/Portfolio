@@ -1,0 +1,124 @@
+/* Body général */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1f1f1;
+    margin: 0;
+    text-align: center;
+}
+
+/* Container du formulaire */
+.container {
+    background: white;
+    display: flex;
+    padding: 40px 30px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Titre */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Messages succès / erreur */
+.success {
+    color: #27ae60;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.error {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+form label {
+    font-weight: 500;
+    color: #555;
+}
+
+/* Inputs et textarea */
+form input,
+form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+main {
+    display: flex;
+    padding: 20px 0px;
+    -ms-flex-align: center;
+    unicode-bidi: isolate;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Bouton */
+form button {
+    padding: 12px;
+    background: linear-gradient(90deg, #3498db, #9b59b6);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
