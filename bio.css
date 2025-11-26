@@ -9,6 +9,8 @@ body {
 /* Portfolio */
 .portfolio {
     padding: 50px;
+    margin-bottom: 20px;
+    height: 100%;
 }
 
 .portfolio h2 {
@@ -29,7 +31,8 @@ body {
     background: white;
     padding: 20px;
     width: 300px;
-    text-align: left;
+    height: 80%;
+    text-align: center;
     border-radius: 8px;
     transition: all 0.3s ease;
     overflow: hidden;
@@ -68,6 +71,7 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .project-details {
     max-height: 0;
     /* texte caché par défaut*/
