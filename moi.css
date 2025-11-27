@@ -32,52 +32,235 @@ nav a:hover {
     color: #f39c12;
 }
 
-.moi-card {
-    position: relative;
+
+
+
+
+
+
+
+
+
+
+/*
+.container{
+    width: 100%;
+    display: flex;
+    color:black;
+    justify-content: space-evenly;
+    z-index: 1;
+
+}
+.container .box{
     width: 15%;
-    height: 90%;
-    margin: 30px;
-    overflow: visible;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 40px #000;
+    padding: 20px;
+    transition: heigth .5s;
+    height: 470px;
+    margin: 60px;
+}
+.container .box img {
+    width: 80%;
+    height: 450px;
+    position: relative;
+    box-shadow: 4px 4px 40px #464646;
+
+}
+.container .box .contenu{
+    text-align: center;
+    transition: height;
+    height: 0px;
+    overflow: hidden;
+    bottom: 20px;
+    position: relative;
+}
+.container .box .contenu p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+}
+.container .box:hover{
+    height: 650px;
+    transition: 3s;
+}
+.container .box:hover .contenu{
+    height: 220px;
+    transition: 4s;
 }
 
-.moi-card img {
+.gray img {
+    width: 200px;
+    height: 200px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.gray:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+h1{
+    margin: 40px 0px 60px 0px;
+}
+
+
+.container2{
+    width: 100%;
+    display: flex;
+    color:black;
+    justify-content: space-evenly;
+    min-height: 70%;
+    z-index: 1;
+
+}
+.container2 .box{
+    width: 15%;
+    box-shadow: 4px 4px 40px #000;
+    padding: 20px;
+    transition: heigth .5s;
+    height: 470px;
+    margin: 60px;
+}
+.container2 .box img {
+    width: 80%;
+    height: 450px;
+    position: relative;
+    box-shadow: 4px 4px 40px #464646;
+
+}
+.container2 .box .contenu{
+    text-align: center;
+    transition: height;
+    height: 0px;
+    overflow: hidden;
+    bottom: 20px;
+    position: relative;
+}
+.container2 .box .contenu p{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+}
+.container2 .box:hover{
+    height: 650px;
+    transition: 3s;
+}
+.container2 .box:hover .contenu{
+    height: 220px;
+    transition: 4s;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+.about-section {
+    margin-top: 60px;
+    padding: 100px 0;
+}
+
+.about-container {
+    max-width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+/* TAG */
+.about-tag {
+    background: #e6fff6;
+    color: #00b894;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+/* TITRE */
+.about-title {
+    display: flex;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.green {
+    color: #00b894;
+    padding-left: 15px;
+}
+
+.about-text {
+    width: 60%;
+    height: 80%;
+}
+/* TEXTE */
+.about-text p {
+    font-size: 18px;
+    display: flex;
+    text-align: left;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+
+/* STATISTIQUES */
+.stats {
+    display: flex;
+    gap: 60px;
+    margin-top: 35px;
+}
+
+.stat h2 {
+    color: #00b894;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.stat p {
+    color: #666;
+    font-size: 15px;
+    margin: 5px 0 0 0;
+}
+
+/* IMAGE DE DROITE */
+.about-img-container {
+    position: relative;
+    width: 520px;
+}
+
+.about-img-bg {
+    position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    display: block;
-    border-radius: 15px;
-}
-
-
-.slide-text {
-    position: absolute;
+    background: #00b894;
+    border-radius: 30px;
+    transform: rotate(3deg);
     top: 0;
-    left: 0;
-    width: 15%;
-    height: 90%;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-    box-sizing: border-box;
-    border-radius: 15px;
-    opacity: 0;
-    transition: transform 0.5s ease, opacity 0.5s ease, width 0.5s ease;
+    right: -15px;
+    z-index: 1;
 }
 
-.moi-card:hover .slide-text {
-    transform: translateX(15%);
+.about-img {
     width: 100%;
-    opacity: 1;
-}
-
-.placement {
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 80px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
 }
