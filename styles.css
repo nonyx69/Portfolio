@@ -225,9 +225,17 @@ nav a:hover {
 
 /* Animation de flottement du bitmoji */
 @keyframes floatHero2 {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-12px); }
-    100% { transform: translateY(0px); }
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 /* Responsive */

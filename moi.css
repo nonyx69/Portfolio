@@ -181,7 +181,7 @@ h1{
     gap: 130px;
 }
 
-/* TAG */
+
 .about-tag {
     background: #e6fff6;
     color: #00b894;
@@ -190,7 +190,7 @@ h1{
     font-size: 16px;
 }
 
-/* TITRE */
+
 .about-title {
     display: flex;
     font-size: 55px;
@@ -198,6 +198,8 @@ h1{
     margin-top: 20px;
     margin-bottom: 25px;
     line-height: 1.2;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .green {
@@ -209,6 +211,7 @@ h1{
     width: 60%;
     height: 80%;
 }
+
 /* TEXTE */
 .about-text p {
     font-size: 18px;
@@ -263,4 +266,190 @@ h1{
     border-radius: 30px;
     position: relative;
     z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+/* CONTAINER2 A CONFIG
+
+.about-section {
+    margin-top: 60px;
+    padding: 100px 0;
+}
+
+.about-container {
+    max-width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+
+.about-tag {
+    background: #e6fff6;
+    color: #00b894;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+
+.about-title {
+    display: flex;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    line-height: 1.2;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.green {
+    color: #00b894;
+    padding-left: 15px;
+}
+
+.about-text {
+    width: 60%;
+    height: 80%;
+}
+
+
+.about-text p {
+    font-size: 18px;
+    display: flex;
+    text-align: left;
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+
+.stats {
+    display: flex;
+    gap: 60px;
+    margin-top: 35px;
+}
+
+.stat h2 {
+    color: #00b894;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.stat p {
+    color: #666;
+    font-size: 15px;
+    margin: 5px 0 0 0;
+}
+
+.about-img-container {
+    position: relative;
+    width: 520px;
+}
+
+.about-img-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00b894;
+    border-radius: 30px;
+    transform: rotate(3deg);
+    top: 0;
+    right: -15px;
+    z-index: 1;
+}
+
+.about-img {
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+.stack {
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+
+/* Style commun */
+.stack img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+    /* Ajout de l'animation du mouvement vertical */
+    transition: left 0.5s ease, top 0.5s ease, transform 0.5s ease;
+}
+
+/* Poses initiales empilées */
+.img1 {
+    transform: rotate(-5deg);
+}
+
+.img2 {
+    transform: rotate(4deg);
+}
+
+.img3 {
+    transform: rotate(-3deg);
+}
+
+.img4 {
+    transform: rotate(6deg);
+}
+
+/* Déploiement au survol */
+.stack:hover img {
+    transform: rotate(0deg);
+}
+
+/* Ligne du haut */
+.stack:hover .img1 {
+    left: 0;
+    top: 0;
+}
+
+.stack:hover .img2 {
+    left: 310px;
+    top: 0;
+}
+
+/* Ligne du bas */
+.stack:hover .img3 {
+    left: 0;
+    top: 210px;
+}
+
+.stack:hover .img4 {
+    left: 310px;
+    top: 210px;
 }
