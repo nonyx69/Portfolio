@@ -53,48 +53,44 @@ include 'includes/header.php';
 </section>
 
 <!-- PORTFOLIO - CERTIFICATIONS -->
-    <section class="portfolio">
+    <section class="portfolio2">
         <h2>Some of my latest certifications</h2>
-        <div class="projects">
+        <div class="certifs">
 
-            <div class="project">
+            <div class="certif">
                 <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 1"></a>
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="Certif Image 1"></a>
                 </div>
-                <p class="project-text">ANSSI</p>
+                <p class="certif-text">ANSSI</p>
+                 <p class="certif-details">Présentation du projet, ce que j'ai appris (langages, compétences, ...).</p>
             </div>
 
-            <div class="project">
+            <div class="certif">
                 <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 2"></a>
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="Certif Image 2"></a>
                 </div>
-                <p class="project-text">CNIL</p>
+                <p class="certif-text">CNIL</p>
             </div>
 
-            <div class="project">
+            <div class="certif">
                 <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 3"></a>
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="Certif Image 3"></a>
                 </div>
-                <p class="project-text">LINUX</p>
+                <p class="certif-text">LINUX</p>
             </div>
 
-            <div class="project">
+            <div class="certif">
                 <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 4"></a>
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="Certif Image 4"></a>
                 </div>
-                <p class="project-text">PYTHON</p>
+                <p class="certif-text">PYTHON</p>
             </div>
 
-            <div class="project">
+            <div class="certif">
                 <div class="image-container">
-                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357"
-                                     alt="Project Image 5"></a>
+                    <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="Certif Image 5"></a>
                 </div>
-                <p class="project-text">JAVASCRIPT</p>
+                <p class="certif-text">JAVASCRIPT</p>
             </div>
 
         </div>

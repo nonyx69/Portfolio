@@ -7,27 +7,27 @@ body {
 }
 
 /* Portfolio */
-.portfolio {
+.portfolio2 {
     padding: 50px;
     margin-bottom: 20px;
     height: 100%;
 }
 
-.portfolio h2 {
+.portfolio2 h2 {
     font-size: 2rem;
     margin-bottom: 40px;
     text-transform: uppercase;
     color: black;
 }
 
-.projects {
+.certifs {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.project {
+.certif {
     background: white;
     padding: 20px;
     width: 300px;
@@ -40,7 +40,7 @@ body {
     position: relative;
 }
 
-.project:hover {
+.certif:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
@@ -62,27 +62,24 @@ body {
     transition: transform 0.3s ease;
 }
 
-.project:hover .image-container img {
+.certif:hover .image-container img {
     transform: scale(1.1);
 }
 
-/* Texte du projet */
-.project-title {
+.certif-text {
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.project-details {
+.certif-details {
     max-height: 0;
-    /* texte caché par défaut*/
     opacity: 0;
     overflow: hidden;
     transition: all 0.3s ease;
 }
 
 /* Affichage du détail au survol */
-.project:hover .project-details {
+.certif:hover .certif-details {
     max-height: 100px;
-    /* ajuster selon la taille du texte */
     opacity: 1;
 }
