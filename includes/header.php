@@ -31,6 +31,7 @@
                 <option value="en">En</option>
                 <option value="fr">Fr</option>
             </select>
+
         </div>
     </nav>
 </header>

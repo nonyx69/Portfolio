@@ -6,6 +6,96 @@ body {
     text-align: center;
 }
 
+
+
+/* --- Section globale --- */
+.projects-section {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.projects-section h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.projects-section h2 span {
+    color: #00bfa6;
+}
+
+.projects-section p {
+    color: #555;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+/* --- Grille des projets --- */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+
+/* --- Carte d’un projet --- */
+.project-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    transition: .3s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+}
+
+.project-img img {
+    width: 100%;
+    display: block;
+}
+
+/* --- Contenu --- */
+.project-content {
+    padding: 22px;
+    text-align: left;
+}
+
+.project-content h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.project-content p {
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* --- Badges --- */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.tag {
+    background: #e9fbf8;
+    color: #00bfa6;
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+
+
+
 /* Portfolio */
 .portfolio2 {
     padding: 50px;

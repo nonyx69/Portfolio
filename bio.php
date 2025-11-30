@@ -5,54 +5,66 @@ include 'includes/header.php';
 ?>
 <main></main>
 
-<section class="portfolio">
-    <h2>Some of my latest academic work</h2>
-    <div class="projects">
-        <div class="project">
-            <div class="image-container">
-                <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="Project Image"></a>
+<section class="projects-section">
+
+    <h2>Mes <span>Projets</span> académiques</h2>
+    <p>Voici une collection de projets que j'ai réaliser au cour de ma premiere année de foramtion</p>
+
+    <div class="projects-grid">
+
+        <!-- Projet 1 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="booki.png" alt="projet e-commerce">
             </div>
-            <p class="project-title">Booki Project</p>
-            <p class="project-details">Présentation du projet, ce que j'ai appris (langages, compétences, ...).</p>
+            <div class="project-content">
+                <h3>Projet Booki</h3>
+                <p>Mise en place d'une page d'acceuil d'un site de AirBNB + Responsive</p>
+                <div class="tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
+            </div>
         </div>
 
-        <div class="project">
-            <div class="image-container">
-                <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="Project Image"></a>
+        <!-- Projet 2 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="carre-as.png" alt="projet météo">
             </div>
-            <p class="project-title">Ace Square Project</p>
-            <p class="project-details">Présentation du projet, ce que j'ai appris (langages, compétences, ...).</p>
+            <div class="project-content">
+                <h3>Projet Carré d'As</h3>
+                <p>Mise en place d'un site web pour un bar qui propose une carte des jeu avec getion de base de donnée + Responsive</p>
+                <div class="tags">
+                    <span class="tag">PHP</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">PHPmyAdmin</span>
+                </div>
+            </div>
         </div>
 
-        <div class="project">
-            <div class="image-container">
-                <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="Project Image"></a>
+        <!-- Projet 3 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="projet blog">
             </div>
-            <p class="project-title">Video Game Project</p>
-            <p class="project-details">Présentation du projet, ce que j'ai appris (langages, compétences, ...).</p>
+            <div class="project-content">
+                <h3>Jeu Unity 2D</h3>
+                <p>Initiation a la création de jeu vidéo en 2D avec Unity </p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+            </div>
         </div>
+
     </div>
+
 </section>
 
-<section class="portfolio">
-    <h2>Some of my latest personal work</h2>
-    <div class="projects">
-        <div class="project">
-            <div class="image-container">
-                <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="Project Image 1"></a>
-            </div>
-            <p class="project-text">Snack project</p>
-        </div>
-        <div class="project">
-            <div class="image-container">
-                <a href="#"><img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt="Project Image 2"></a>
-            </div>
-            <p class="project-text">Flappy bird project</p>
-        </div>
-    </div>
-</section>
 
-<!-- PORTFOLIO - CERTIFICATIONS -->
+<!-- CERTIFICATIONS -->
     <section class="portfolio2">
         <h2>Some of my latest certifications</h2>
         <div class="certifs">
