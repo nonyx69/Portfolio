@@ -64,6 +64,84 @@ include 'includes/header.php';
 </section>
 
 
+<section class="projects-section">
+
+    <h2>Mes <span>Projets</span> personnels</h2>
+    <p>Voici une collection de projets que j'ai réaliser seul ou avec des amis</p>
+
+    <div class="projects-grid">
+
+        <!-- Projet 1 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="booki.png" alt="projet e-commerce">
+            </div>
+            <div class="project-content">
+                <h3>Projet Snake</h3>
+                <p>Création d'un jeu simple avec Unity en 2D</p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 2 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="carre-as.png" alt="projet météo">
+            </div>
+            <div class="project-content">
+                <h3>Projet survie</h3>
+                <p>Création d'un jeu open world en 3D avec Unity</p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">Autodidact</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projet 3 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="projet blog">
+            </div>
+            <div class="project-content">
+                <h3>Projet TPT</h3>
+                <p>Création d'un jeu tour par tour 3D sur Unity avec un camarade de classe</p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Travail d'équipe</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Projet 4 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="projet blog">
+            </div>
+            <div class="project-content">
+                <h3>Projet Flappy Plane</h3>
+                <p>Création d'un jeu 2D avec Unity</p>
+                <div class="tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
 <!-- CERTIFICATIONS -->
     <section class="portfolio2">
         <h2>Some of my latest certifications</h2>

@@ -1,0 +1,59 @@
+/* Supprimer la bannière en haut */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+/* Supprimer l'iframe */
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+body {
+    top: 0 !important;
+}
+
+/* Supprimer le widget Google dans la page */
+.goog-te-gadget {
+    display: none !important;
+}
+
+.goog-te-gadget-simple {
+    display: none !important;
+}
+
+.goog-te-menu-value {
+    display: none !important;
+}
+
+.goog-te-combo {
+    display: none !important;
+}
+
+/* Supprimer le popup du menu Google */
+.goog-te-menu-frame {
+    display: none !important;
+}
+
+.goog-te-menu2 {
+    display: none !important;
+}
+
+head {
+    display: none;
+}
+
+head {
+    display: none;
+}
+
+tbody {
+    display: none;
+}
+
+.VIpgJd-ZVi9od-ORHb {
+    display: none;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none;
+}

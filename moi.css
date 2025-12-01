@@ -327,8 +327,8 @@ h1{
     font-size: 18px;
     display: flex;
     text-align: center;
+    flex-direction: column;
     color: #444;
-    line-height: 1.7;
     margin-bottom: 18px;
 }
 
@@ -551,11 +551,13 @@ h1{
 
 .skills-section {
     text-align: center;
-    padding: 140px 20px;      /* encore plus d'espace */
+    padding: 140px 20px;
+    /* encore plus d'espace */
 }
 
 .skills-section h1 {
-    font-size: 55px;          /* encore plus grand */
+    font-size: 55px;
+    /* encore plus grand */
     margin: 20px 0;
 }
 
@@ -565,7 +567,7 @@ h1{
 
 .subtitle {
     color: #666;
-    font-size: 18px;          
+    font-size: 18px;
     margin-bottom: 70px;
 }
 
@@ -581,7 +583,8 @@ h1{
 /* --- CARDS --- */
 .cards {
     display: flex;
-    gap: 70px;                 /* plus d’espace entre les cartes */
+    gap: 70px;
+    /* plus d’espace entre les cartes */
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -590,20 +593,24 @@ h1{
 .card {
     background: #fff;
     text-align: center;
-    width: 450px;              /* beaucoup plus large */
-    padding: 50px;             /* plus d’espace interne */
+    width: 450px;
+    /* beaucoup plus large */
+    padding: 50px;
+    /* plus d’espace interne */
     border-radius: 26px;
-    box-shadow: 0 15px 45px rgba(0,0,0,0.08);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
     text-align: left;
 }
 
 .card h2 {
-    text-align: center;  /* titre centré */
+    text-align: center;
+    /* titre centré */
 }
 
 .card .icon {
     margin-left: auto;
-    margin-right: auto;  /* centre l’icône */
+    margin-right: auto;
+    /* centre l’icône */
 }
 
 /* Icônes encore agrandies */
@@ -615,7 +622,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 36px;           /* très grande icône */
+    font-size: 36px;
+    /* très grande icône */
     margin-bottom: 28px;
     color: #07c2a9;
 }
@@ -627,13 +635,16 @@ h1{
 
 .skill-row {
     display: flex;
-    justify-content: space-between;   /* texte à gauche / % à droite */
+    justify-content: space-between;
+    /* texte à gauche / % à droite */
     align-items: center;
-    margin-bottom: 8px;               /* espace entre le texte et la barre */
+    margin-bottom: 8px;
+    /* espace entre le texte et la barre */
 }
 
 .skill-row span {
-    float: none; /* on annule les floats */
+    float: none;
+    /* on annule les floats */
 }
 
 .skill span:first-child {
@@ -653,7 +664,8 @@ h1{
 /* --- PROGRESS BAR --- */
 .bar {
     width: 100%;
-    height: 16px;              /* très épaisse */
+    height: 16px;
+    /* très épaisse */
     background: #e0e0e0;
     border-radius: 10px;
     margin-top: 12px;
@@ -666,8 +678,13 @@ h1{
     border-radius: 10px;
 }
 
-.blue div { background: #3c7df0; }
-.purple div { background: #a55eea; }
+.blue div {
+    background: #3c7df0;
+}
+
+.purple div {
+    background: #a55eea;
+}
 
 
 
@@ -699,7 +716,7 @@ h1{
 .intro {
     color: #666;
     margin-bottom: 60px;
-        font-size: 18px;
+    font-size: 18px;
 }
 
 /* ----- TIMELINE ----- */
@@ -710,7 +727,7 @@ h1{
     margin-bottom: 100px;
 }
 
-h2.title{
+h2.title {
     font-size: 55px;
 }
 
@@ -754,17 +771,18 @@ h2.title{
     position: relative;
 }
 
-.card2.blue { 
+.card2.blue {
     border-left: 5px solid #4d9fff;
     margin: 5%;
-    top: 50px; 
+    top: 50px;
 }
 
-.card2.green{
+.card2.green {
     border-left: 5px solid #2ecc71;
 }
-.card2.purple { 
-    border-left: 5px solid #b26dff; 
+
+.card2.purple {
+    border-left: 5px solid #b26dff;
 }
 
 .year {
@@ -779,9 +797,18 @@ h2.title{
     font-size: 12px;
     color: white;
 }
-.green-s { background: #2ecc71; }
-.blue-s { background: #4d9fff; }
-.purple-s { background: #b26dff; }
+
+.green-s {
+    background: #2ecc71;
+}
+
+.blue-s {
+    background: #4d9fff;
+}
+
+.purple-s {
+    background: #b26dff;
+}
 
 .school {
     color: #4d9fff;
@@ -791,6 +818,7 @@ h2.title{
 .points {
     margin-top: 10px;
 }
+
 .points li {
     margin: 6px 0;
 }
@@ -826,5 +854,5 @@ h2.title{
     color: white;
     border-radius: 20px;
     background: linear-gradient(135deg, #00c389, #4d9fff);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }

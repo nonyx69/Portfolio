@@ -48,7 +48,7 @@ include 'includes/header.php';
             <a href="mailto:noa.guilhot.pro@gmail.com"><img src="https://img.freepik.com/vecteurs-premium/icone-application-gmail_1273375-1249.jpg?semt=ais_hybrid&w=740&q=80" alt="Google"></a>
         </div>
 
-        <a href="contact.php"><button class="btn">Contactez Moi</button></a>
+        <a href="contact.php"><button class="btn">Contact me</button></a>
     </div>
 
     <div class="bitmoji">

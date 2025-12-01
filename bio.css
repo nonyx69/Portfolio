@@ -12,7 +12,7 @@ body {
 .projects-section {
     text-align: center;
     padding: 60px 20px;
-    max-width: 1200px;
+    max-width: 75%;
     margin: auto;
 }
 
@@ -44,7 +44,7 @@ body {
     background: #fff;
     border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
     transition: .3s;
 }
 

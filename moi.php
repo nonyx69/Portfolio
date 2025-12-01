@@ -66,35 +66,34 @@ include 'includes/header.php';
         </div>
 
         <div class="about-text2">
-            <span class="about-tag2">A changer</span>
+            <span class="about-tag2">Centre d'interet</span>
 
             <h1 class="about-title2">
-                Trouver une <span class="green2"> phrase </span>d'accroche.
+                A propos de mes <span class="green2"> centre d'interet </span>
             </h1>
 
             <p>
-                Actuellement en formation de développement web, je me spécialise dans la création 
-                d'expériences numériques modernes et intuitives. Mon parcours m'a permis 
-                d'acquérir une solide maîtrise des technologies front-end et back-end.
+                J’aime découvrir de nouvelles cultures, rencontrer des gens et admirer des paysages qui élargissent ma vision du monde. Voyager m’inspire et nourrit mon envie d’explorer toujours plus.
             <br>
-                Chaque projet est une opportunité d'apprendre, de créer et de repousser mes limites, 
-                tout en développant des solutions performantes, accessibles et esthétiques.
+                J’aime aussi les jeux vidéo, qui stimulent ma créativité et ma réflexion. Plonger dans des univers immersifs et relever des défis m’offre une vraie sensation d’évasion.
             <br>
-                Mon approche combine créativité, rigueur technique et souci du détail.
+                J’aime pratiquer le sport, qui m’aide à rester motivé, dynamique et équilibré, tout en me permettant de repousser mes limites.
+            <br>
+                J’aime enfin les mangas pour leurs histoires captivantes et leur richesse visuelle, qui nourrissent mon imagination au quotidien.
             </p>
 
             <div class="stats2">
                 <div class="stat2">
-                    <h2>65</h2>
-                    <p>Quelque chose</p>
+                    <h2>2</h2>
+                    <p>Pays visité</p>
                 </div>
                 <div class="stat2">
-                    <h2>94</h2>
-                    <p>Autre chose</p>
+                    <h2>20</h2>
+                    <p>Jeux joués</p>
                 </div>
                 <div class="stat2">
-                    <h2>28</h2>
-                    <p>Encore autre</p>
+                    <h2>11</h2>
+                    <p>Mangas lu</p>
                 </div>
             </div>
         </div>
