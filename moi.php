@@ -8,39 +8,36 @@ include 'includes/header.php';
     <div class="about-container">
 
         <div class="about-text">
-            <span class="about-tag">À propos de moi</span>
+            <span class="about-tag">About me</span>
 
             <h1 class="about-title">
-                Passionné par le <span class="green-p">développement web</span>
+                Passionate about <span class="green-p"> web development</span>
             </h1>
 
             <p>
-                Actuellement en formation de développement web, je me spécialise dans la création 
-                d'expériences numériques modernes et intuitives. Mon parcours m'a permis 
-                d'acquérir une solide maîtrise des technologies front-end et back-end.
+                Currently training in web development, I am specializing in the creation of modern and intuitive digital experiences. My journey has allowed me to acquire a solid command of both front-end and back-end technologies.
             </p>
 
             <p>
-                Chaque projet est une opportunité d'apprendre, de créer et de repousser mes limites, 
-                tout en développant des solutions performantes, accessibles et esthétiques.
+               Each project is an opportunity to learn, create, and push my limits, while developing efficient, accessible, and visually appealing solutions.
             </p>
 
             <p>
-                Mon approche combine créativité, rigueur technique et souci du détail.
+               My approach combines creativity, technical rigor, and attention to detail.
             </p>
 
             <div class="stats">
                 <div class="stat">
                     <h2>7</h2>
-                    <p>Projets réalisés</p>
+                    <p>Completed Projects</p>
                 </div>
                 <div class="stat">
                     <h2>9</h2>
-                    <p>Technologies maîtrisées</p>
+                    <p>Skills & Technologie</p>
                 </div>
                 <div class="stat">
                     <h2>2</h2>
-                    <p>Années d'études</p>
+                    <p>Years of study</p>
                 </div>
             </div>
         </div>
@@ -66,34 +63,34 @@ include 'includes/header.php';
         </div>
 
         <div class="about-text2">
-            <span class="about-tag2">Centre d'interet</span>
+            <span class="about-tag2">Interests</span>
 
             <h1 class="about-title2">
-                A propos de mes <span class="green2"> centre d'interet </span>
+                About my <span class="green2"> interests </span>
             </h1>
 
             <p>
-                J’aime découvrir de nouvelles cultures, rencontrer des gens et admirer des paysages qui élargissent ma vision du monde. Voyager m’inspire et nourrit mon envie d’explorer toujours plus.
+                JI enjoy discovering new cultures, meeting people, and admiring landscapes that broaden my perspective of the world. Traveling inspires me and fuels my desire to keep exploring.
             <br>
-                J’aime aussi les jeux vidéo, qui stimulent ma créativité et ma réflexion. Plonger dans des univers immersifs et relever des défis m’offre une vraie sensation d’évasion.
+                I also love video games, which stimulate my creativity and critical thinking. Immersing myself in engaging worlds and tackling challenges gives me a real sense of escape.
             <br>
-                J’aime pratiquer le sport, qui m’aide à rester motivé, dynamique et équilibré, tout en me permettant de repousser mes limites.
+                I enjoy practicing sports, which help me stay motivated, energetic, and balanced, while also allowing me to push my limits.
             <br>
-                J’aime enfin les mangas pour leurs histoires captivantes et leur richesse visuelle, qui nourrissent mon imagination au quotidien.
+                Finally, I love mangas for their captivating stories and rich visuals, which nourish my imagination every day.
             </p>
 
             <div class="stats2">
                 <div class="stat2">
                     <h2>2</h2>
-                    <p>Pays visité</p>
+                    <p>Contries visited</p>
                 </div>
                 <div class="stat2">
                     <h2>20</h2>
-                    <p>Jeux joués</p>
+                    <p>Game Played</p>
                 </div>
                 <div class="stat2">
                     <h2>11</h2>
-                    <p>Mangas lu</p>
+                    <p>Mangas read</p>
                 </div>
             </div>
         </div>
@@ -105,79 +102,12 @@ include 'includes/header.php';
 
 
 
-
-
-
-
-<!--
-      <div class="container">
-            <div class="gray">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmhhVShxT8jugCFZPjnRdy8OGwyWkqa9b2qMHZBB16bnWzprZNMWj-7zcG3atTyP34dpk&usqp=CAU"/>
-                <div class="contenu">
-                    <h2>Bac</h2>
-                    <p>My name is Noa Guilhot, and I'm 19 years old.</p>
-                </div>
-            </div>
-            
-            
-            <div class="gray">
-                <img src="https://s3-eu-west-1.amazonaws.com/assets.atout-on-line.com/images/bts/2025/logos/IPSSI-logo-300.jpg"/>
-                <div class="contenu">
-                    <h2>Bachelor</h2>
-                    <p>More content coming soon!</p>
-                </div>
-            </div>
-
-            <div class="gray">
-                <img src="https://s3-eu-west-1.amazonaws.com/assets.atout-on-line.com/images/bts/2025/logos/IPSSI-logo-300.jpg" alt=""/>
-                <div class="contenu">
-                    <h2>Master</h2>
-                    <p>I love traveling and playing video games.</p>
-                </div>
-            </div>    
-        </div>
-
-
-        <div class="container2">
-            <div class="box">
-                <img src="moi2.png"/>
-                <div class="contenu"><br>
-                    <h2>A propos de moi</h2>
-                    <p>My name is Guilhot Noa, I'm 19 years old.</p>
-                </div>
-            </div>
-            
-            
-            <div class="box">
-                <img src="survie.png"/>
-                <div class="contenu"><br>
-                    <h2>Jsp encore</h2>
-                    <p>jsp non plus mdrr</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="japon.jpg" alt=""/>
-                <div class="contenu"><br>
-                    <h2>Activité</h2>
-                    <p>I love travel and play video game</p>
-                </div>
-            </div>    
-        </div>
-
--->
-
-
-
-
-
-
 <section class="skills-section">
 
-    <div class="tag">Compétences</div>
+    <div class="tag">Skills</div>
 
     <h1>Technologies & <span>Expertise</span></h1>
-    <p class="subtitle">Compétences techniques acquises au fil de mes études et de projets personnels</p>
+    <p class="subtitle">Technical skills acquired through my studies and personal projects</p>
 
     <div class="cards">
 
@@ -260,7 +190,7 @@ include 'includes/header.php';
         <!-- OUTILS & AUTRES -->
         <div class="card">
             <div class="icon">🛠️</div>
-            <h2>Outils & Autres</h2>
+            <h2>Tools & Others</h2>
 
             <div class="skill">
                 <div class="skill-row">
@@ -304,20 +234,20 @@ include 'includes/header.php';
 
 
 <section class="timeline-section">
-    <h4 class="tag">Formation</h4>
-    <h2 class="title">Mon <span>Parcours Scolaire</span></h2>
-    <p class="intro">Du baccalauréat au master visé, découvrez mon cheminement académique dans le développement web</p>
+    <h4 class="tag">Education</h4>
+    <h2 class="title">My <span>Academic Journey</span></h2>
+    <p class="intro">From high school to the targeted master’s degree, discover my academic path in web development</p>
 
     <div class="timeline">
 
-        <!-- Baccalauréat -->
+        <!-- High School -->
         <div class="timeline-item left">
             <div class="card2 green">
                 <span class="year">2024</span>
-                <span class="status green-s">Terminé</span>
-                <h3>Baccalauréat</h3>
-                <p class="school">Lycée</p>
-                <p>Obtention du baccalauréat STI2D avec mention assez bien, première découverte du développement web avec création de site et rendu de projets en html/css et arduino (C++)</p>
+                <span class="status green-s">Completed</span>
+                <h3>High School Diploma</h3>
+                <p class="school">High School</p>
+                <p>Obtained the STI2D baccalaureate with honors, first discovery of web development through website creation and project work in HTML/CSS and Arduino (C++).</p>
             </div>
         </div>
 
@@ -330,16 +260,16 @@ include 'includes/header.php';
         <div class="timeline-item right">
             <div class="card2 blue">
                 <span class="year">2024-2027</span>
-                <span class="status blue-s">En cours</span>
-                <h3>Bachelor Développement Web</h3>
-                <p class="school">École Supérieure</p>
-                <p>Formation intensive en développement web full-stack, apprentissage des technologies modernes.</p>
+                <span class="status blue-s">In Progress</span>
+                <h3>Bachelor in Web Development</h3>
+                <p class="school">Higher Education School</p>
+                <p>Intensive training in full-stack web development, learning modern technologies.</p>
 
                 <ul class="points">
                     <li>HTML, CSS, JavaScript</li>
-                    <li>React, bases de données SQL, API</li>
-                    <li>Gestion de projets et bonnes pratiques</li>
-                    <li>Projets solo, en équipe et stages</li>
+                    <li>React, SQL's databases, APIs</li>
+                    <li>Project management and best practices</li>
+                    <li>Solo projects, team projects, and internships</li>
                 </ul>
             </div>
         </div>
@@ -353,10 +283,10 @@ include 'includes/header.php';
         <div class="timeline-item left">
             <div class="card2 purple">
                 <span class="year">2027-2029</span>
-                <span class="status purple-s">Objectif</span>
-                <h3>Master Développement Web & Mobile</h3>
-                <p class="school">École Supérieure</p>
-                <p>Objectif d'obtenir un Master spécialisé en développement web et mobile.</p>
+                <span class="status purple-s">Goal</span>
+                <h3>Master in Web & Mobile Development</h3>
+                <p class="school">Higher Education School</p>
+                <p>Aiming to obtain a specialized Master’s degree in web and mobile development.</p>
             </div>
         </div>
 
@@ -368,14 +298,15 @@ include 'includes/header.php';
         <!-- Final objective card -->
         <div class="timeline-end">
             <div class="final-card">
-                <h3>Objectif : Master en 2029</h3>
-                <p>Déterminé à atteindre l’excellence dans le développement web et mobile.</p>
+                <h3>Goal: Master’s Degree in 2029</h3>
+                <p>Determined to achieve excellence in web and mobile development.</p>
             </div>
         </div>
 
     </div>
 
 </section>
+
 
 
 

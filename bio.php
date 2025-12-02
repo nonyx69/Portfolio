@@ -7,8 +7,8 @@ include 'includes/header.php';
 
 <section class="projects-section">
 
-    <h2>Mes <span>Projets</span> académiques</h2>
-    <p>Voici une collection de projets que j'ai réaliser au cour de ma premiere année de foramtion</p>
+    <h2>My academics <span>Projects</span> </h2>
+    <p>Here is a collection of projects I completed during my first year of training.</p>
 
     <div class="projects-grid">
 
@@ -18,8 +18,8 @@ include 'includes/header.php';
                 <img src="booki.png" alt="projet e-commerce">
             </div>
             <div class="project-content">
-                <h3>Projet Booki</h3>
-                <p>Mise en place d'une page d'acceuil d'un site de AirBNB + Responsive</p>
+                <h3>Booki Project</h3>
+                <p>Setting up a responsive homepage for an Airbnb website</p>
                 <div class="tags">
                     <span class="tag">HTML</span>
                     <span class="tag">CSS</span>
@@ -33,8 +33,8 @@ include 'includes/header.php';
                 <img src="carre-as.png" alt="projet météo">
             </div>
             <div class="project-content">
-                <h3>Projet Carré d'As</h3>
-                <p>Mise en place d'un site web pour un bar qui propose une carte des jeu avec getion de base de donnée + Responsive</p>
+                <h3>Project Square of Aces</h3>
+                <p>Website development for a bar offering a games menu with database management and responsive design.</p>
                 <div class="tags">
                     <span class="tag">PHP</span>
                     <span class="tag">SQL</span>
@@ -46,11 +46,11 @@ include 'includes/header.php';
         <!-- Projet 3 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="projet blog">
+                <img src="Shuen_no_sasaki.png" alt="projet blog">
             </div>
             <div class="project-content">
-                <h3>Jeu Unity 2D</h3>
-                <p>Initiation a la création de jeu vidéo en 2D avec Unity </p>
+                <h3>Unity 2D game</h3>
+                <p>Introduction to 2D video game creation with Unity </p>
                 <div class="tags">
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
@@ -66,8 +66,8 @@ include 'includes/header.php';
 
 <section class="projects-section">
 
-    <h2>Mes <span>Projets</span> personnels</h2>
-    <p>Voici une collection de projets que j'ai réaliser seul ou avec des amis</p>
+    <h2>My personal <span>Projects</span></h2>
+    <p>Here is a collection of projects that I have completed alone or with friends.</p>
 
     <div class="projects-grid">
 
@@ -77,8 +77,8 @@ include 'includes/header.php';
                 <img src="booki.png" alt="projet e-commerce">
             </div>
             <div class="project-content">
-                <h3>Projet Snake</h3>
-                <p>Création d'un jeu simple avec Unity en 2D</p>
+                <h3>Project Snake</h3>
+                <p>Creating a simple 2D game with Unity</p>
                 <div class="tags">
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
@@ -92,8 +92,8 @@ include 'includes/header.php';
                 <img src="carre-as.png" alt="projet météo">
             </div>
             <div class="project-content">
-                <h3>Projet survie</h3>
-                <p>Création d'un jeu open world en 3D avec Unity</p>
+                <h3>Survival Project</h3>
+                <p>Creating a 3D open-world game with Unity</p>
                 <div class="tags">
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
@@ -105,11 +105,11 @@ include 'includes/header.php';
         <!-- Projet 3 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="projet blog">
+                <img src="Projet_TPT.png" alt="projet blog">
             </div>
             <div class="project-content">
-                <h3>Projet TPT</h3>
-                <p>Création d'un jeu tour par tour 3D sur Unity avec un camarade de classe</p>
+                <h3>TPT Project</h3>
+                <p>Creating a 3D turn-based game on Unity with a classmate</p>
                 <div class="tags">
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
@@ -126,8 +126,8 @@ include 'includes/header.php';
                 <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="projet blog">
             </div>
             <div class="project-content">
-                <h3>Projet Flappy Plane</h3>
-                <p>Création d'un jeu 2D avec Unity</p>
+                <h3>Flappy Plane Project</h3>
+                <p>Creating a 2D game with Unity</p>
                 <div class="tags">
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
@@ -142,7 +142,7 @@ include 'includes/header.php';
 
 
 
-<!-- CERTIFICATIONS -->
+<!-- CERTIFICATIONS 
     <section class="portfolio2">
         <h2>Some of my latest certifications</h2>
         <div class="certifs">
@@ -185,5 +185,5 @@ include 'includes/header.php';
 
         </div>
     </section>
-
+-->
 <?php include 'includes/footer.php'; ?>

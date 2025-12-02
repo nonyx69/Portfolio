@@ -46,22 +46,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 <main>
     <div class="container">
-        <h2>Contactez-moi</h2>
+        <h2>Contact me</h2>
 
         <?php if (!empty($success)) echo "<p class='success'>$success</p>"; ?>
         <?php if (!empty($error)) echo "<p class='error'>$error</p>"; ?>
 
         <form method="POST" action="">
-            <label>Nom :</label>
+            <label>Name :</label>
             <input type="text" name="name" required>
 
-            <label>Email :</label>
+            <label>E-mail :</label>
             <input type="email" name="email" required>
 
             <label>Message :</label>
             <textarea name="message" rows="5" required></textarea>
 
-            <button type="submit">Envoyer</button>
+            <button type="submit">Send</button>
         </form>
     </div>
 </main>
