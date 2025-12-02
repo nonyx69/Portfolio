@@ -15,7 +15,7 @@ include 'includes/header.php';
         <!-- Projet 1 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="booki.png" alt="projet e-commerce">
+                <img src="booki.PNG" alt="projet e-commerce">
             </div>
             <div class="project-content">
                 <h3>Booki Project</h3>
@@ -30,7 +30,7 @@ include 'includes/header.php';
         <!-- Projet 2 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="carre-as.png" alt="projet météo">
+                <img src="carre-as.PNG" alt="projet météo">
             </div>
             <div class="project-content">
                 <h3>Project Square of Aces</h3>
@@ -74,7 +74,7 @@ include 'includes/header.php';
         <!-- Projet 1 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="booki.png" alt="projet e-commerce">
+                <img src="Snake.PNG" alt="projet e-commerce">
             </div>
             <div class="project-content">
                 <h3>Project Snake</h3>
@@ -89,7 +89,7 @@ include 'includes/header.php';
         <!-- Projet 2 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="carre-as.png" alt="projet météo">
+                <img src="survie.PNG" alt="projet météo">
             </div>
             <div class="project-content">
                 <h3>Survival Project</h3>
@@ -123,7 +123,7 @@ include 'includes/header.php';
         <!-- Projet 4 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357" alt="projet blog">
+                <img src="soon.PNG" alt="projet blog">
             </div>
             <div class="project-content">
                 <h3>Flappy Plane Project</h3>
