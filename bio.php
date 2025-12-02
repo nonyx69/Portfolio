@@ -15,7 +15,7 @@ include 'includes/header.php';
         <!-- Projet 1 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="booki.PNG">
+                <img src="Booki.PNG">
             </div>
             <div class="project-content">
                 <h3>Booki Project</h3>
