@@ -15,7 +15,7 @@ include 'includes/header.php';
         <!-- Projet 1 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="booki.PNG" alt="projet e-commerce">
+                <img src="booki.PNG">
             </div>
             <div class="project-content">
                 <h3>Booki Project</h3>
@@ -30,7 +30,7 @@ include 'includes/header.php';
         <!-- Projet 2 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="carre-as.PNG" alt="projet météo">
+                <img src="carre-as.PNG">
             </div>
             <div class="project-content">
                 <h3>Project Square of Aces</h3>
@@ -46,7 +46,7 @@ include 'includes/header.php';
         <!-- Projet 3 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="Shuen_no_sasaki.png" alt="projet blog">
+                <img src="Shuen_no_sasaki.png">
             </div>
             <div class="project-content">
                 <h3>Unity 2D game</h3>
@@ -74,7 +74,7 @@ include 'includes/header.php';
         <!-- Projet 1 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="Snake.PNG" alt="projet e-commerce">
+                <img src="Snake.PNG">
             </div>
             <div class="project-content">
                 <h3>Project Snake</h3>
@@ -89,7 +89,7 @@ include 'includes/header.php';
         <!-- Projet 2 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="survie.PNG" alt="projet météo">
+                <img src="survie.PNG">
             </div>
             <div class="project-content">
                 <h3>Survival Project</h3>
@@ -105,7 +105,7 @@ include 'includes/header.php';
         <!-- Projet 3 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="Projet_TPT.png" alt="projet blog">
+                <img src="Projet_TPT.png" >
             </div>
             <div class="project-content">
                 <h3>TPT Project</h3>
@@ -123,7 +123,7 @@ include 'includes/header.php';
         <!-- Projet 4 -->
         <div class="project-card">
             <div class="project-img">
-                <img src="soon.PNG" alt="projet blog">
+                <img src="soon.PNG" >
             </div>
             <div class="project-content">
                 <h3>Flappy Plane Project</h3>
