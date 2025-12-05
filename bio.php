@@ -23,6 +23,7 @@ include 'includes/header.php';
                 <div class="tags">
                     <span class="tag">HTML</span>
                     <span class="tag">CSS</span>
+                    <span class="tag">Responsive</span>
                 </div>
             </div>
         </div>
@@ -39,6 +40,7 @@ include 'includes/header.php';
                     <span class="tag">PHP</span>
                     <span class="tag">SQL</span>
                     <span class="tag">PHPmyAdmin</span>
+                    <span class="tag">Responsive</span>
                 </div>
             </div>
         </div>
@@ -55,6 +57,7 @@ include 'includes/header.php';
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
                     <span class="tag">UI/UX</span>
+                    <span class="tag">Teamwork</span>
                 </div>
             </div>
         </div>
@@ -82,6 +85,7 @@ include 'includes/header.php';
                 <div class="tags">
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
+                    <span class="tag">Self-taught</span>
                 </div>
             </div>
         </div>
@@ -97,7 +101,7 @@ include 'includes/header.php';
                 <div class="tags">
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
-                    <span class="tag">Autodidact</span>
+                    <span class="tag">Self-taught</span>
                 </div>
             </div>
         </div>
@@ -114,7 +118,7 @@ include 'includes/header.php';
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
                     <span class="tag">UI/UX</span>
-                    <span class="tag">Travail d'équipe</span>
+                    <span class="tag">Teamwork</span>
                 </div>
             </div>
         </div>
@@ -131,6 +135,7 @@ include 'includes/header.php';
                 <div class="tags">
                     <span class="tag">Unity</span>
                     <span class="tag">C#</span>
+                    <span class="tag">Self-taught</span>
                 </div>
             </div>
         </div>

@@ -25,6 +25,9 @@ include 'includes/header.php';
             <p>
                My approach combines creativity, technical rigor, and attention to detail.
             </p>
+            <p>
+                I hope to find an internship in Canada to improve my English, discover a new culture, and work in an international environment, which will help me grow professionally.
+            </p>
 
             <div class="stats">
                 <div class="stat">
@@ -56,10 +59,10 @@ include 'includes/header.php';
     <div class="about-container2">
         
         <div class="stack">
-            <img src="https://picsum.photos/id/1011/300/200" class="img1">
-            <img src="https://picsum.photos/id/1015/300/200" class="img2">
-            <img src="https://picsum.photos/id/1025/300/200" class="img3">
-            <img src="https://picsum.photos/id/1035/300/200" class="img4">
+            <img src="japon-moi.jpg" class="img1">
+            <img src="japon2-moi.jpg" class="img2">
+            <img src="manga-moi.jpg" class="img3">
+            <img src="survie.PNG" class="img4">
         </div>
 
         <div class="about-text2">
@@ -71,11 +74,11 @@ include 'includes/header.php';
 
             <p>
                 JI enjoy discovering new cultures, meeting people, and admiring landscapes that broaden my perspective of the world. Traveling inspires me and fuels my desire to keep exploring.
-            <br>
+            <br><br>
                 I also love video games, which stimulate my creativity and critical thinking. Immersing myself in engaging worlds and tackling challenges gives me a real sense of escape.
-            <br>
+            <br><br>
                 I enjoy practicing sports, which help me stay motivated, energetic, and balanced, while also allowing me to push my limits.
-            <br>
+            <br><br>
                 Finally, I love mangas for their captivating stories and rich visuals, which nourish my imagination every day.
             </p>
 
@@ -142,10 +145,26 @@ include 'includes/header.php';
 
             <div class="skill">
                 <div class="skill-row">
-                    <span>???</span>
-                    <span>70%</span>
+                    <span>Responsive Design</span>
+                    <span>80%</span>
                 </div>
-                <div class="bar"><div style="width: 70%;"></div></div>
+                <div class="bar"><div style="width: 80%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-row">
+                    <span>React</span>
+                    <span>60%</span>
+                </div>
+                <div class="bar"><div style="width: 60%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-row">
+                    <span>TypeScript</span>
+                    <span>50%</span>
+                </div>
+                <div class="bar"><div style="width: 50%;"></div></div>
             </div>
         </div>
 
@@ -164,6 +183,14 @@ include 'includes/header.php';
 
             <div class="skill">
                 <div class="skill-row">
+                    <span>C++</span>
+                    <span>60%</span>
+                </div>
+                <div class="bar blue"><div style="width: 60%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-row">
                     <span>PHP</span>
                     <span>80%</span>
                 </div>
@@ -177,13 +204,21 @@ include 'includes/header.php';
                 </div>
                 <div class="bar blue"><div style="width: 80%;"></div></div>
             </div>
+            
+            <div class="skill">
+                <div class="skill-row">
+                    <span>JavaScript</span>
+                    <span>75%</span>
+                </div>
+                <div class="bar blue"><div style="width: 75%;"></div></div>
+            </div>
 
             <div class="skill">
                 <div class="skill-row">
-                    <span>???</span>
-                    <span>80%</span>
+                    <span>API</span>
+                    <span>70%</span>
                 </div>
-                <div class="bar blue"><div style="width: 80%;"></div></div>
+                <div class="bar blue"><div style="width: 70%;"></div></div>
             </div>
         </div>
 
@@ -210,15 +245,31 @@ include 'includes/header.php';
 
             <div class="skill">
                 <div class="skill-row">
-                    <span>Responsive Design</span>
-                    <span>80%</span>
+                    <span>Xampp</span>
+                    <span>70%</span>
                 </div>
-                <div class="bar purple"><div style="width: 80%;"></div></div>
+                <div class="bar purple"><div style="width: 70%;"></div></div>
             </div>
 
             <div class="skill">
                 <div class="skill-row">
-                    <span>Xampp</span>
+                    <span>Unity</span>
+                    <span>90%</span>
+                </div>
+                <div class="bar purple"><div style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-row">
+                    <span>Unreal Engie</span>
+                    <span>60%</span>
+                </div>
+                <div class="bar purple"><div style="width: 60%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-row">
+                    <span>Ui/UX</span>
                     <span>70%</span>
                 </div>
                 <div class="bar purple"><div style="width: 70%;"></div></div>
@@ -286,7 +337,7 @@ include 'includes/header.php';
                 <span class="status purple-s">Goal</span>
                 <h3>Master in Web & Mobile Development</h3>
                 <p class="school">Higher Education School</p>
-                <p>Aiming to obtain a specialized Master’s degree in web and mobile development.</p>
+                <p>Aiming to obtain a specialized Master’s degree in web, mobile or game development.</p>
             </div>
         </div>
 
@@ -299,7 +350,7 @@ include 'includes/header.php';
         <div class="timeline-end">
             <div class="final-card">
                 <h3>Goal: Master’s Degree in 2029</h3>
-                <p>Determined to achieve excellence in web and mobile development.</p>
+                <p>Determined to achieve excellence in web, mobile or game development.</p>
             </div>
         </div>
 
