@@ -2,67 +2,57 @@
 $title = "Contact";
 $page_css = "contact.css";
 include 'includes/header.php';
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-require 'PHPMailer/src/Exception.php';
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
-
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-
-    $name    = htmlspecialchars($_POST["name"]);
-    $email   = htmlspecialchars($_POST["email"]);
-    $message = htmlspecialchars($_POST["message"]);
-
-    $mail = new PHPMailer(true);
-
-    try {
-        // Paramètres SMTP
-        $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'noa.guilhot.pro@gmail.com';
-        $mail->Password   = 'ekcg ewbx zzvz jyiv';
-        $mail->SMTPSecure = 'tls';
-        $mail->Port       = 587;
-        $mail->CharSet    = 'UTF-8';
-
-        $mail->setFrom('noa.guilhot.pro@gmail.com', 'Portfolio');
-        $mail->addReplyTo($email, $name);
-        $mail->addAddress('noa.guilhot.pro@gmail.com');
-
-        $mail->isHTML(false);
-        $mail->Subject = 'Nouveau message depuis ton portfolio';
-        $mail->Body    = "Nom : $name\nEmail : $email\n\nMessage :\n$message";
-
-        $mail->send();
-        $success = "Message envoyé avec succès !";
-    } catch (Exception $e) {
-        $error = "Erreur lors de l'envoi du message : {$mail->ErrorInfo}";
-    }
-}
 ?>
 <main>
     <div class="container">
         <h2>Contact me</h2>
 
-        <?php if (!empty($success)) echo "<p class='success'>$success</p>"; ?>
-        <?php if (!empty($error)) echo "<p class='error'>$error</p>"; ?>
+        <!-- Message de retour -->
+        <div id="form-messages" style="margin-bottom:15px;"></div>
 
-        <form method="POST" action="">
-            <label>Name :</label>
+        <form id="contactForm" action="https://formspree.io/f/manrbdrr" method="POST">
+            
+            <label>Nom :</label>
             <input type="text" name="name" required>
 
-            <label>E-mail :</label>
+            <label>Email :</label>
             <input type="email" name="email" required>
+
+            <label>Objet :</label>
+            <input type="text" name="_subject" required>
 
             <label>Message :</label>
             <textarea name="message" rows="5" required></textarea>
 
-            <button type="submit">Send</button>
+            <button type="submit">Envoyer</button>
         </form>
     </div>
+
+    <script>
+    const form = document.getElementById('contactForm');
+    const formMessages = document.getElementById('form-messages');
+
+    form.addEventListener('submit', async function(event) {
+        event.preventDefault();
+
+        const data = new FormData(form);
+
+        const response = await fetch(form.action, {
+            method: form.method,
+            body: data,
+            headers: { "Accept": "application/json" }
+        });
+
+        if (response.ok) {
+            formMessages.style.color = "green";
+            formMessages.textContent = "Message envoyé avec succès !";
+            form.reset();
+        } else {
+            formMessages.style.color = "red";
+            formMessages.textContent = "Erreur lors de l'envoi du message.";
+        }
+    });
+    </script>
 </main>
+
 <?php include 'includes/footer.php'; ?>
