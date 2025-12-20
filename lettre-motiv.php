@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <div class="letter">
 
-            <p>Objet : Candidature pour un stage de <strong><?= $poste ?></strong> au sein de  <strong><?= $entreprise ?></strong></p>
+            <p>Objet : Candidature pour un poste de <strong><?= $poste ?></strong> au sein de  <strong><?= $entreprise ?></strong></p>
 
             <p>
                 <?php
