@@ -36,6 +36,7 @@
         <a href="index.php">Home page</a>
         <a href="moi.php">Biographie</a>
         <a href="bio.php">Projects</a>
+        <a href="agar.io/menu_agario.html">Jeux</a>
         <a href="cv.html">CV</a>
         <a href="contact.php">Contact</a>
         

@@ -1,0 +1,86 @@
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+font-family: Arial, sans-serif;
+}
+
+
+/* ===== MENU ===== */
+.menu-body {
+background: radial-gradient(circle at top, #333, #111);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.menu-container {
+background: rgba(0,0,0,0.6);
+padding: 40px 60px;
+border-radius: 20px;
+text-align: center;
+box-shadow: 0 0 40px rgba(0,0,0,0.8);
+}
+
+
+.menu-container h1 {
+color: #4CAF50;
+font-size: 48px;
+margin-bottom: 10px;
+}
+
+
+.menu-container p {
+color: #ccc;
+margin-bottom: 30px;
+}
+
+
+.menu-buttons {
+display: flex;
+gap: 20px;
+}
+
+
+.btn {
+width: 160px;
+padding: 20px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+border-radius: 15px;
+transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.btn span {
+font-size: 14px;
+opacity: 0.8;
+}
+
+
+.btn:hover {
+transform: scale(1.1);
+box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+
+.level1 { background: #4CAF50; }
+.level2 { background: #FF9800; }
+.level3 { background: #F44336; }
+
+
+/* ===== JEU ===== */
+body.game-body {
+background: #222;
+overflow: hidden;
+}
+
+
+canvas {
+display: block;
+position: absolute;
+}
+
