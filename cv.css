@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px 24px;
+    padding: 20px 24px 10px;
 }
 
 .home-link {
@@ -46,6 +46,14 @@ body {
     text-decoration: none;
 }
 
+.pp_cv{
+        margin: 30px 0 30px 30px;
+}
+
+.header-left {
+        text-align: center;
+    width: 500px;
+}
 
 .header-left h1 {
     font-size: 28px;
@@ -76,6 +84,7 @@ body {
     align-items: center;
     justify-content: center;
     min-width: 120px;
+    flex-direction: column;
 }
 
 .school-logo {
@@ -89,7 +98,7 @@ body {
 
 /* tags (version originale) */
 .tags {
-    padding: 0 24px 14px 24px;
+    padding: 0 0 14px 0;
 }
 
 .tags span {
@@ -114,6 +123,7 @@ body {
     padding: 14px 24px;
     font-size: 13px;
     line-height: 1.45;
+    text-align: center;
 }
 
 /* grille principale */
@@ -253,8 +263,7 @@ body {
     text-decoration: none;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
-    margin-left: 10px; /* pour l’éloigner du nom */
-    margin-top: 50px; /* augmente cette valeur pour le descendre plus */
+    margin-top: 20px;
 }
 
 /* Animation hover */
